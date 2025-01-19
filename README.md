@@ -29,7 +29,7 @@ Aprender os fundamentos do Angular e aplicar os conhecimentos em pequenos projet
     ng serve
     ```
 
-4. Acesseno navegador:
+4. Acessando no navegador:
     ```bash
     http://localhost:4200
     ```
