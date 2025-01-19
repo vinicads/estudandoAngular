@@ -1,0 +1,13 @@
+<p>Hello, World! {{nome}} 
+    @if(exibirIdade){
+        {{idade}}
+    } @else{
+        <h1>IDADE DESCONHECIDA</h1>
+    }
+</p>
+<button [attr.aria-label]="idButton" (click)="upName('Turista')">Alterar nome</button>
+<button [attr.aria-label]="idButton" (click)="exibirIdadeFunc(true)">Exibir idade</button>
+
+@for(item of pessoas; track item){
+    <h1>{{item.nome}}, {{item.idade}} - <button (click)="submit(item)">Enviar</button></h1>
+}
